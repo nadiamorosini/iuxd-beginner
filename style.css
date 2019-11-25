@@ -1,6 +1,6 @@
 .carousel {
     background:
-        linear-gradient(rgba(70, 63, 63, 0.7),
+        linear-gradient(rgba(124, 120, 120, 0.7),
             rgba(70, 63, 63, 0.7)),
         url(img/Wireframe.png) no-repeat ;
     background-size: cover;
