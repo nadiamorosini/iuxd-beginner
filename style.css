@@ -1,18 +1,17 @@
-.carousel {
+.header {
+    height: 60vh;
+    width:  100%;
+    display: table;
+    padding: 0;
     background:
         linear-gradient(rgba(124, 120, 120, 0.7),
             rgba(70, 63, 63, 0.7)),
-        url(img/Wireframe.png) no-repeat ;
+        url(img/Wireframe.png) no-repeat;
     background-size: cover;
-
-
+    margin-bottom: 30px;
 }
-    .bd-placeholder-img {
-      font-size: 1.125rem;
-      text-anchor: middle;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
 
+.section-2 {
+    background: url(img/Wireframe.png) no-repeat center;
+    background-size: cover;
+}
