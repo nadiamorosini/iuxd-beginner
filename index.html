@@ -12,27 +12,32 @@
   <body>
 
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Wireframes</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse"  aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Ontwikkeling <span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" href="homeSection" id="home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Heden</a>
+            <a class="nav-link" href="wireframeSection" id="wireframe">Wireframes</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="ontwikkelingSection" id="ontwikkeling">Ontwikkeling <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Toekomst</a>
+            <a class="nav-link" href="hedenSection" id="heden">Heden</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="toekomstSection" id="toekomst">Toekomst</a>
           </li>
         
         </ul>
       </div>
     </nav>
 
-    <div class="row">
+    <div class="row" id="homeSection">
       <div class="col">
         <div class="header d-flex justify-content-center align-items-center">
           <h1>Wireframes</h1>
@@ -47,89 +52,104 @@
   ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
+  <div class="container-fluid background">
     <div Class= "row">
       <div class= "col-md-12"> <blockquote class="blockquote text-center">
         <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
         <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
       </blockquote></div>
     </div>
+  </div>
  
-    <!-- Three columns of text below the carousel -->
+    <!-- Three columns of text below -->
+   <div class= "container-fluid background" id="wireframeSection"> 
     <div class="row">
-      <div class="col-lg-4">
+      <div class="col-md-4 mx-auto text-center" >
         <img src="images/blueprint.png" width="140" height="140" >
         <h2>Waarom?</h2>
         <p>De wireframes zorgen structuur, vorm en overzichtelijkheid. Daarnaast geven ze de mogelijkheid om feedback te geven. </p>
         <p><a class="btn btn-secondary" href="#" role="button">Meer... &raquo;</a></p>
-
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
+      </div>
+      <div class="col-md-4 mx-auto text-center">
         <img src="images/ipad.png" width="140" height="140"> 
         <h2>Hoe?</h2>
         <p>Digitaal maken! Eerst is het wel nog handig een schets te maken zodat een structuur kan aanbrengen. </p>
         <p><a class="btn btn-secondary" href="#" role="button">Meer... &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
+      </div>
+      <div class="col-md-4 mx-auto text-center">
         <img src="images/toolbox.png" width="140" height="140" alt="...">
         <h2>Waarmee? </h2>
         <p>Er zijn verschillende tools waarmee je makkelijk kan wireframen. Wat is voor jou het makkelijkste?</p>
         <p><a class="btn btn-secondary" href="#" role="button">Meer... &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
+     </div> 
+    </div>
+    </div>
+  
 
 
     <!-- START THE FEATURETTES -->
-
+<div class= "container-fluid background" id="ontwikkelingSection">
     <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
+    <div class="row ">
+      <div class="col-md-6">
         <h2 class="featurette-heading">Hoe zijn de wireframes ontwikkeld in de loop der jaren?<span class="text-muted"></span></h2>
-
         <p class="lead">
-          1970 - Begin van Waterfall Methode en geen prototyping
-
+          <br>1970 - Begin van Waterfall Methode en geen prototyping
           <br>1980 - Programmeren wordt visueel voor het eerst ook prototypes
- <br>1985 -  Eerste paper prototypes worden gebruikt voor usability tests
-<br>1986 - Eerste design software beschikbaar, zoals illustrator en PowerPoint
-<br>Rond 2000 - Eerste prototype & wireframe software, zoals Axure
-Vanaf 2005 - Komen de Saas Based prototype en wireframe programma’s, zoals Balsamiq.</p>
+          <br>1985 -  Eerste paper prototypes worden gebruikt voor usability tests
+          <br>1986 - Eerste design software beschikbaar, zoals illustrator en PowerPoint
+          <br>Rond 2000 - Eerste prototype & wireframe software, zoals Axure
+          <br>Vanaf 2005 - Komen de Saas Based prototype en wireframe programma’s, zoals Balsamiq.
+        </p>
       </div>
-      <div class="col-md-5 section-2">
-        <img src= "images/pasted image 0.png">
-         </div>
+      <div class="col-md-6 section-2">
+        
+      </div>
     </div>
-
+  </div> 
+</div>
+<div class= "container-fluid background" id="hedenSection"> 
     <hr class="featurette-divider">
-
     <div class="row featurette">
-      <div class="col-md-7 order-md-2">
+      <div class="col-md-6 order-md-2">
         <h2 class="featurette-heading"> Wireframes in het heden. <span class="text-muted">Hoe gebruiken we wireframes tegenwoordig?</span></h2>
         <p class="lead"> Wireframes worden op nog veel manieren gemaakt. Veel designers hebben een eigen voorkeur voor hoe ze wireframes maken. Het is vooral belangrijk om een flow en structuur te laten zien.</p>
       </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      
+      <div class="col-md-6 section-3">
+        
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
+</div>
+<div class="container-fluid background" id="toekomstSection">  
+  <hr class="featurette-divider">
     <div class="row featurette">
-      <div class="col-md-7">
+      <div class="col-md-6 ">
         <h2 class="featurette-heading">Wireframes in de toekomst...<span class="text-muted">Zijn er dan nog wireframes?</span></h2>
         <p class="lead">Wij denken dat wireframes nogsteeds een belangrijke rol spelen in de toekomst. De manier waarop veranderd alleen met de tijd. Steeds vaker worden wieframes al snel high fi prototypes. </p>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      <div class="col-md-6 section-4">
+        
       </div>
     </div>
-
-    <hr class="featurette-divider">
-
+</div> 
+<hr class="featurette-divider">
     <!-- /END THE FEATURETTES -->
 
-  </div><!-- /.container -->
+  <div class= "container-fluid background">
+    <div class= "row">
+      <div class="col-md-4">
+        <h5>Hoe?</h5>
+      </div>
+      <div class="col-md-4">
+        <h5>Hoe?</h5>
+      </div>
+      <div class="col-md-4">
+        <h5>Hoe?</h5>
+      </div>
+    </div>
+  </div> 
+  <!-- /.container -->
 
 
   <!-- FOOTER -->
@@ -137,7 +157,10 @@ Vanaf 2005 - Komen de Saas Based prototype en wireframe programma’s, zoals Bal
     <p class="float-right"><a href="#">Back to top</a></p>
     <p>&copy; 2019 Wireframes Nadia & Jack. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
   </footer>
+ 
 </main>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
+
+<script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+<script src="script.js"></script>
+</body>
 </html>

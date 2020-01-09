@@ -92,3 +92,20 @@ p {
     min-height: 150px;
 }
 
+.background{
+    padding: 75px 0 75px 0;
+}
+
+.section-2 {
+    background: url(images/pasted\ image\ 0.png) no-repeat center;
+    
+}
+.section-3 {
+    background: url(images/Wireframe.png) no-repeat center;
+    background-size: cover;
+}
+.section-4 {
+    background: url(images/Prototype.png) no-repeat center;
+    background-size: cover;
+}
+
