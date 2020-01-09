@@ -97,8 +97,11 @@ p {
 }
 
 .section-2 {
-    background: url(images/pasted\ image\ 0.png) no-repeat center;
-    
+    background: url(images/pasted\ image\ 0.png) no-repeat ;
+    background: cover;
+    height: 100;
+    width: 700;
+
 }
 .section-3 {
     background: url(images/Wireframe.png) no-repeat center;
@@ -109,3 +112,10 @@ p {
     background-size: cover;
 }
 
+footer li {
+    list-style: none;
+    float: right;}
+
+.header h1 {
+    font-size: 5rem !important;
+}
