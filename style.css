@@ -1,17 +1,94 @@
-.header {
-    height: 60vh;
-    width:  100%;
-    display: table;
-    padding: 0;
-    background:
-        linear-gradient(rgba(124, 120, 120, 0.7),
-            rgba(70, 63, 63, 0.7)),
-        url(img/Wireframe.png) no-repeat;
-    background-size: cover;
-    margin-bottom: 30px;
+@import url('https://fonts.googleapis.com/css?family=Dosis:700&display=swap');
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 63px;
 }
 
-.section-2 {
-    background: url(img/Wireframe.png) no-repeat center;
-    background-size: cover;
+h4, a {
+    font-family: 'Dosis', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-align: center;
+    color: #2f2f2f;
 }
+
+p {
+    font-family: helvetica;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.nav-link,
+.navbar-brand {
+    color: black !important;
+}
+
+.navbar {
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.495);
+    background-color: white;
+}
+.navbar li {
+    list-style: none;
+}
+.header {
+    background: url(images/prototyping_en_wireframing.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    display: table;
+    padding: 0;
+}
+.portfolio-background {
+    background-color: #ffffff;
+    padding: 75px 0px;
+    color: #2f2f2f;
+}
+
+.card {
+    margin-top: 25px;
+}
+
+.overmij-background {
+    background-color: #ffffff;
+    padding: 75px 0px;
+    color: #2f2f2f;
+}
+
+.accordion .card {
+    border: none;
+}
+
+.accordion .card .card-header {
+    background-color: rgb(63, 36, 211);
+}
+
+.btn-black {
+    color:#ffffff;
+    font-family: helvetica;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.bg-orange {
+    background-color: #DB5D43;
+
+}
+
+.text-orange {
+        color: #DB5D43!important;
+}
+
+.contact-background {
+    background-color: #ffffff;
+    padding: 75px 0px;
+    color: #2f2f2f;
+}
+
+.footer-background {
+    background-color: rgb(100, 100, 100);
+    min-height: 150px;
+}
+
